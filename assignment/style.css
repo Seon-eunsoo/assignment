@@ -1,0 +1,70 @@
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+header .line {
+    width: 30px;
+    height: 2px;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+header p {
+    color: gray;
+}
+
+.team-members {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    text-align: center;
+}
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: #4b4848;
+    font-size: 14px;
+
+}
+
+.role {
+    color: gray;
+}
+
+.card p:last-child {
+    font-size: 12px;
+    color: gray;
+}
+
+.img-box {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 auto;
+
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+
+}
